@@ -18,7 +18,7 @@ Pick **exactly 3 of 8 assets** so that expected return is high and risk is low, 
 - [Repository layout](#repository-layout)
 - [Evaluation methodology](#evaluation-methodology)
 - [Next steps](#next-steps)
-- [Acknowledgments, references and AI use](#acknowledgments-references-and-ai-use)
+- [Acknowledgments and references](#acknowledgments-and-references)
 
 ## Team
 
@@ -208,7 +208,7 @@ The asset data are synthetic and for education only. They are not investment adv
 - Choosing $p$ by the noise budget rather than by the ideal simulator.
 - Larger instances against stronger classical heuristics, and mitigation tested on real hardware.
 
-## Acknowledgments, references and AI use
+## Acknowledgments and references
 
 This project builds on B. Tirado's *Combinatorial Optimization with QAOA: Max-Cut* tutorial for BasQ Qiskit Fall Fest 2026 (tutorial text CC BY 4.0, code Apache 2.0).
 
@@ -221,8 +221,6 @@ This project builds on B. Tirado's *Combinatorial Optimization with QAOA: Max-Cu
 - P. Barkoutsos et al., *Improving Variational Quantum Optimization using CVaR*, Quantum 4, 256 (2020).
 - J. McClean et al., *Barren plateaus in quantum neural network training landscapes*, Nat. Commun. 9, 4812 (2018).
 - M. Larocca et al., *Diagnosing Barren Plateaus*, Quantum 6, 824 (2022); M. Ragone et al., *A Lie algebraic theory of barren plateaus*, Nat. Commun. 15, 7172 (2024).
-
-**AI assistance.** We used Claude (Anthropic), through Claude Code, to help write code and explanatory text, suggest methods and draft the report, working under the team's direction. The team chose the challenge and route, ran the experiments on qBraid and reviewed the results. We verified the optimum by enumerating all 256 bitstrings, compared NumPy and Qiskit simulations, and independently tested a five-asset version.
 
 ---
 
